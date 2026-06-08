@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PayYourNote.com — Note Servicing</title>
+  <meta name="description" content="PayYourNote.com is a note servicing agent processing payments in a timely, efficient and economical way for buyers, sellers, and brokers." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="logo">Pay<span>Your</span>Note<span class="logo-dot">.com</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="tel:2106106250" class="nav-phone">210-610-6250</a>
+      <a href="#buyer-login" class="btn-nav-outline">Buyer Login</a>
+      <a href="#seller-login" class="btn-nav">Seller Login</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-left">
+    <div class="eyebrow">
+      <span class="dot"></span> Note Servicing Agent
+    </div>
+    <h1>Simple.<br><span class="highlight">Efficient.</span><br>Reliable.</h1>
+    <p class="hero-sub">
+      PayYourNote.com processes payments in a timely, efficient and economical way. We help buyers, sellers, and brokers service any type of note payment.
+    </p>
+    <div class="hero-actions">
+      <a href="#pay-online" class="btn-primary">Pay Online (ACH) &rarr;</a>
+      <a href="#pay-mail" class="btn-outline">Pay By Mail</a>
+    </div>
+    <div class="trust-row">
+      <div class="trust-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke="#FF6B35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Trusted Note Servicing</span>
+      </div>
+      <div class="trust-sep"></div>
+      <div class="trust-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" stroke="#FF6B35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Buyers, Sellers &amp; Brokers</span>
+      </div>
+      <div class="trust-sep"></div>
+      <div class="trust-item">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke="#FF6B35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>M–F 9am–4pm &nbsp; 210-610-6250</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <!-- Payment options card -->
+    <div class="hero-card-main">
+      <div class="hcm-label">Payment Options</div>
+      <div class="pay-options">
+        <a href="#" class="pay-option" id="pay-online">
+          <div class="pay-option-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><rect x="2" y="5" width="20" height="14" rx="2" stroke="#FF6B35" stroke-width="1.8"/><path d="M2 10h20" stroke="#FF6B35" stroke-width="1.8"/><path d="M6 15h4" stroke="#FF6B35" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <div class="pay-option-text">
+            <div class="pay-option-title">Pay Online</div>
+            <div class="pay-option-sub">ACH &mdash; fast &amp; secure</div>
+          </div>
+          <div class="pay-option-arrow">&rarr;</div>
+        </a>
+        <a href="#" class="pay-option" id="pay-mail">
+          <div class="pay-option-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="#FF6B35" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="pay-option-text">
+            <div class="pay-option-title">Pay By Mail</div>
+            <div class="pay-option-sub">Send check or money order</div>
+          </div>
+          <div class="pay-option-arrow">&rarr;</div>
+        </a>
+      </div>
+      <div class="hcm-divider"></div>
+      <div class="portal-links">
+        <div class="portal-label">Account Access</div>
+        <div class="portal-row">
+          <a href="#" class="portal-btn buyer">Buyer Login</a>
+          <a href="#" class="portal-btn seller">Seller Login</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Floating badges -->
+    <div class="hero-cards-row">
+      <div class="hero-badge">
+        <div class="badge-icon green">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9" stroke="#22C55E" stroke-width="1.8"/></svg>
+        </div>
+        <div>
+          <div class="badge-title">Escrow Services</div>
+          <div class="badge-sub">Taxes &amp; Insurance</div>
+        </div>
+      </div>
+      <div class="hero-badge">
+        <div class="badge-icon orange">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke="#FF6B35" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div>
+          <div class="badge-title">Tax Reporting</div>
+          <div class="badge-sub">Seller Financed Notes</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="deco-circle deco-1"></div>
+    <div class="deco-circle deco-2"></div>
+  </div>
+</section>
+
+<!-- ── ABOUT ── -->
+<section class="about" id="about">
+  <div class="about-inner">
+    <div class="about-num">01</div>
+    <div class="about-content">
+      <div class="tag">About Us</div>
+      <h2>Advanced technology.<br>Personal service.</h2>
+      <p>PayYourNote.com is a note servicing agent. With the utilization of advanced communication technology, PayYourNote.com is able to process payments in a timely, efficient and economical way.</p>
+      <p>We are able to help buyers, sellers, brokers and can service any type of note payment.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── SERVICES ── -->
+<section class="services" id="services">
+  <div class="services-inner">
+    <div class="section-header center">
+      <div class="section-num">02</div>
+      <div class="tag">Our Focus</div>
+      <h2>What we do for you</h2>
+      <p>We understand your requirement and provide quality works.</p>
+    </div>
+    <div class="services-grid">
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+            <path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#FF6B35" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3>Note Collection</h3>
+        <p>We calculate and collect on a monthly, quarterly or annual basis payments due on your seller financed note.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+            <path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" stroke="#FF6B35" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3>Escrow Collection</h3>
+        <p>We assist with Escrow Services for Property Taxes, Insurance and other Dues so nothing slips through the cracks.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+            <path d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke="#FF6B35" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3>Taxation</h3>
+        <p>We monitor and provide Tax documentation for Seller Financed Notes, keeping you compliant come tax time.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+            <path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="#FF6B35" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3>Online Portal</h3>
+        <p>We provide an online portal for both buyers and sellers to view statements, payment history, and account details anytime.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIALS ── -->
+<section class="testimonials" id="testimonials">
+  <div class="testimonials-inner">
+    <div class="section-num">03</div>
+    <div class="tag">Testimonials</div>
+    <h2>What our clients say</h2>
+    <p class="section-sub">We understand your requirement and provide quality works.</p>
+    <div class="testimonial-card">
+      <div class="quote-mark">&ldquo;</div>
+      <p class="quote-text">PayYourNote provided exclusive services for collection on my seller financed note with comprehensive servicing for both the buyer and myself as a seller. I did not have to worry about the escrow services nor the tax reporting.</p>
+      <div class="quote-author">
+        <div class="author-avatar">S</div>
+        <div>
+          <div class="author-name">Satisfied Seller</div>
+          <div class="author-role">Seller Financed Note Client</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <div class="contact-left">
+      <div class="section-num">04</div>
+      <div class="tag">Get In Touch</div>
+      <h2>We&rsquo;re here for you</h2>
+      <p>We understand your requirement and provide quality works. Reach out and our team will respond promptly.</p>
+
+      <div class="contact-details">
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke="#FF6B35" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <div class="contact-label">Phone</div>
+            <a href="tel:2106106250" class="contact-val">210-610-6250</a>
+            <div class="contact-note">M–F 9am–4pm</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="#FF6B35" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <div class="contact-label">Email</div>
+            <a href="mailto:staff@payyournote.com" class="contact-val">staff@payyournote.com</a>
+            <a href="mailto:admin@payyournote.com" class="contact-val">admin@payyournote.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke="#FF6B35" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke="#FF6B35" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <div class="contact-label">Office</div>
+            <div class="contact-val">8626 Tesoro Dr., Suite 701</div>
+            <div class="contact-val">San Antonio, Texas 78217</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-right">
+      <div class="contact-form-card">
+        <h3>Send a Message</h3>
+        <form class="cform" onsubmit="handleForm(event)">
+          <div class="form-field">
+            <label>Your Name</label>
+            <input type="text" placeholder="Jane Smith" required />
+          </div>
+          <div class="form-field">
+            <label>Email Address</label>
+            <input type="email" placeholder="jane@example.com" required />
+          </div>
+          <div class="form-field">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="(210) 000-0000" />
+          </div>
+          <div class="form-field">
+            <label>I am a&hellip;</label>
+            <select>
+              <option>Buyer</option>
+              <option>Seller</option>
+              <option>Broker</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label>Message</label>
+            <textarea placeholder="How can we help you?" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn-primary full">Send Message &rarr;</button>
+          <p class="form-note">We typically respond within one business day.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="logo logo-sm">Pay<span>Your</span>Note<span class="logo-dot">.com</span></a>
+        <p>A note servicing agent processing payments in a timely, efficient and economical way for buyers, sellers and brokers.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Note Collection</a></li>
+          <li><a href="#services">Escrow Collection</a></li>
+          <li><a href="#services">Taxation</a></li>
+          <li><a href="#services">Online Portal</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Account</h4>
+        <ul>
+          <li><a href="#">Buyer Login</a></li>
+          <li><a href="#">Seller Login</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:2106106250">210-610-6250</a></li>
+          <li><a href="mailto:staff@payyournote.com">staff@payyournote.com</a></li>
+          <li><a href="mailto:admin@payyournote.com">admin@payyournote.com</a></li>
+          <li>M–F 9am–4pm</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 PayYourNote.com &mdash; 8626 Tesoro Dr., Suite 701, San Antonio, TX 78217</span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
